@@ -26,8 +26,8 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
           <Image 
             src={post.creator.image}
             alt='user_image'
-            width={40}
-            height={40}
+            width={44}
+            height={44}
             className='rounded-full object-contain'
           />
 
@@ -35,7 +35,7 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
             <h3 className='font-satoshi font-semibold text-gray-900'>
               {post.creator.username}
             </h3>
-            <p className='font-inter text-sm text-gray-600'>
+            <p className='font-inter text-sm text-gray-500'>
               {post.creator.email}
             </p>
           </div>
